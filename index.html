@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Beco Burger</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🍔 Beco Burger</h1>
+
+<nav>
+
+<a href="#home">Home</a>
+<a href="#menu">Menu</a>
+<a href="#checkout">Checkout</a>
+
+</nav>
+
+</header>
+
+<section id="home">
+
+<h2>Lezat, Cepat, dan Berkualitas!</h2>
+
+<p>
+Nikmati burger terbaik kami.
+Pickup • Delivery • Dine In
+</p>
+
+</section>
+
+<section id="menu">
+
+<h2>Daftar Menu Kami</h2>
+
+<div class="menu-container">
+
+<div class="card">
+
+<img src="assets/Cheese Burger.avif">
+
+<h3>Cheese Burger</h3>
+
+<p>Rp 35.000</p>
+
+<button onclick="addCart('Cheese Burger',35000)">
+Tambah Keranjang
+</button>
+
+</div>
+
+<div class="card">
+
+<img src="assets/Beef Burger.avif">
+
+<h3>Beef Burger</h3>
+
+<p>Rp 40.000</p>
+
+<button onclick="addCart('Beef Burger',40000)">
+Tambah Keranjang
+</button>
+
+</div>
+
+<div class="card">
+
+<img src="assets/Chicken Burger.avif">
+
+<h3>Chicken Burger</h3>
+
+<p>Rp 30.000</p>
+
+<button onclick="addCart('Chicken Burger',30000)">
+Tambah Keranjang
+</button>
+
+</div>
+
+<div class="card">
+
+<img src="assets/French fries.webp">
+
+<h3>French fries</h3>
+
+<p>Rp 15.000</p>
+
+<button onclick="addCart('French fries',15000)">
+Tambah Keranjang
+</button>
+
+</div>
+<div class="card">
+
+<img src="assets/Cola.avif">
+
+<h3>Cola</h3>
+
+<p>Rp 10.000</p>
+
+<button onclick="addCart('Cola',10000)">
+Tambah Keranjang
+</button>
+
+</div>
+
+<div class="card">
+
+<img src="assets/Milkshake.avif">
+
+<h3>Milkshake</h3>
+
+<p>Rp 20.000</p>
+
+<button onclick="addCart('Milkshake',20000)">
+Tambah Keranjang
+</button>
+
+</div>
+
+<div class="card">
+
+<img src="assets/Ice Tea.avif">
+
+<h3>Ice Tea</h3>
+
+<p>Rp 8.000</p>
+
+<button onclick="addCart('Ice Tea',8000)">
+Tambah Keranjang
+</button>
+
+</div>
+
+<div class="card">
+
+<img src="assets/Coffee.avif">
+
+<h3>Coffee</h3>
+
+<p>Rp 12.000</p>
+
+<button onclick="addCart('Coffee',12000)">
+Tambah Keranjang
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Keranjang Belanja</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Menu</th>
+<th>Qty</th>
+<th>Harga</th>
+
+</tr>
+
+</thead>
+
+<tbody id="cart">
+
+</tbody>
+
+</table>
+
+<h3>Subtotal :
+Rp <span id="subtotal">0</span></h3>
+
+<h3>Biaya Layanan :
+Rp 5000</h3>
+
+<h3>Ongkir :
+Rp <span id="ongkir">0</span></h3>
+
+<h2>Total :
+Rp <span id="total">0</span></h2>
+
+</section>
+
+<section id="checkout">
+
+<h2>Checkout</h2>
+
+<form id="checkoutForm">
+
+<label>Nama</label>
+
+<input type="text" id="nama">
+
+<label>No Telepon</label>
+
+<input type="text">
+
+<label>Layanan</label>
+
+<select id="layanan">
+
+<option>Pickup</option>
+
+<option>Delivery</option>
+
+</select>
+
+<label>Alamat</label>
+
+<textarea></textarea>
+
+<label>Pembayaran</label>
+
+<select>
+
+<option>Cash</option>
+
+<option>QRIS</option>
+
+</select>
+
+<button type="submit">
+
+Checkout
+
+</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>© 2026 Beco Burger</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+

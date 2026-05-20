@@ -1,0 +1,196 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#FFFDE7;
+}
+
+/* HEADER */
+
+header{
+background:#A5D6A7;
+color:#2E7D32;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav a{
+color:#2E7D32;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#FBC02D;
+}
+
+/* HERO */
+
+#home{
+background:#FFF176;
+padding:50px;
+text-align:center;
+}
+
+#home h2{
+color:#4CAF50;
+font-size:40px;
+margin-bottom:15px;
+}
+
+#home p{
+font-size:18px;
+}
+
+/* MENU */
+
+#menu{
+padding:40px;
+}
+
+#menu h2{
+color:#4CAF50;
+margin-bottom:20px;
+}
+
+/* CARD */
+
+.menu-container{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+}
+
+.card{
+background:white;
+width:220px;
+padding:15px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+.card img{
+width:85%;
+height:120px;
+object-fit:cover;
+border-radius:15px;
+display:block;
+margin:auto;
+}
+
+.card h3{
+margin:10px 0;
+color:#4CAF50;
+}
+
+.card p{
+margin-bottom:10px;
+}
+
+.card button{
+background:#66BB6A;
+color:white;
+border:none;
+padding:10px;
+border-radius:8px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.card button:hover{
+background:#FFD54F;
+color:black;
+}
+
+/* TABLE */
+
+table{
+width:90%;
+margin:auto;
+border-collapse:collapse;
+background:white;
+}
+
+th{
+background:#66BB6A;
+color:white;
+}
+
+th,td{
+padding:15px;
+border:1px solid #ddd;
+text-align:center;
+}
+
+/* TOTAL */
+
+h3,h2{
+text-align:center;
+margin-top:15px;
+}
+
+/* CHECKOUT */
+
+#checkout{
+padding:40px;
+}
+
+form{
+background:white;
+width:70%;
+margin:auto;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+
+label{
+font-weight:bold;
+display:block;
+margin-top:15px;
+}
+
+input,
+textarea,
+select{
+width:100%;
+padding:10px;
+margin-top:8px;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+form button{
+background:#66BB6A;
+color:white;
+border:none;
+padding:12px;
+margin-top:20px;
+width:100%;
+border-radius:10px;
+cursor:pointer;
+}
+
+form button:hover{
+background:#FFD54F;
+color:black;
+}
+
+/* FOOTER */
+
+footer{
+background:#A5D6A7;
+color:#2E7D32;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
